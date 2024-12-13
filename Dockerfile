@@ -60,7 +60,7 @@ RUN set -eux; \
 	rm -rf "$GNUPGHOME"
 
 ENV MYSQL_MAJOR 8.0
-ENV MYSQL_VERSION 8.0.37-1ubuntu22.04
+ENV MYSQL_VERSION 8.4.3ubuntu22.04
 
 RUN echo 'deb [ signed-by=/etc/apt/keyrings/mysql.gpg ] http://repo.mysql.com/apt/ubuntu/ jammy mysql-8.0' > /etc/apt/sources.list.d/mysql.list
 
